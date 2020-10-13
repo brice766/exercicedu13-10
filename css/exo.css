@@ -1,0 +1,57 @@
+.body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.oneContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.image img{
+    width: 30.5rem;
+    height: auto;
+}
+
+#title {
+    padding-top: 10px;
+    color: #092a5e;
+    font-size: 26px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#italie {
+    color: gray;
+    font-size: 19px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 4.5rem;
+    height: auto;
+}
+
+.icon img {
+    padding-top: 10px;
+    width: 1.4rem;
+    height: auto;
+}
+
+#spanNote {
+    color:rgb(0, 195, 255);  
+    font-size: 25px;
+    font-weight: bold;
+}
+#avis {
+    font-size: 25px;
+    margin-left: 5px;
+}
