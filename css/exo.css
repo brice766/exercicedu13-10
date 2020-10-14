@@ -12,7 +12,7 @@
 .oneContainer {
     display: flex;
     flex-direction: row;
-    width: 100%
+    width: 100%;
 }
 
 .image img{
@@ -46,12 +46,101 @@
     height: auto;
 }
 
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 #spanNote {
-    color:rgb(0, 195, 255);  
+    color:rgb(86, 195, 228);  
     font-size: 25px;
     font-weight: bold;
 }
+
 #avis {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 5px;
+}
+
+.nuit {
+    font-size: 19px; 
+    color: grey;
+}
+
+.Prix {
+    font-size: 40px;
+    color:red;
+    font-weight: bold;
+    flex-direction: row;
+    display: flex ;
+    margin-left: 1%;
+}
+
+.TTC {
+    font-size: 14px;
+    color:red;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+.Info{
+    font-size: 15px;
+    color:red; 
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.reduc{
+    font-size: 25px;
+    color:white; 
+    background-color: red;
+    margin-left: 1.5%;
+}
+
+.acrroche {
+    font-size: 19px; 
+    color: grey; 
+    display: flex;
+    margin-top: 0.4%;
+    margin-left: 1%;
+}
+
+.prixSansReduc {
+    font-size: 19px; 
+    color: grey; 
+    display: flex;
+    margin-left: 0.4%;
+    font-weight: bold;
+}
+
+.cent {
+    color: grey; 
+    font-size: 21px; 
+}
+
+.x {
+    color: grey; 
+    font-size: 21px; 
+}
+
+.trois {
+    color: grey; 
+    font-size: 21px; 
+}
+
+.InfoGris {
+    color: grey; 
+    font-size: 21px; 
+}
+
+.troisFois img {
+    width: 2.5rem;
+    height: auto;
+    margin-left: 0.4%;
+    margin-top: 1%;
 }
